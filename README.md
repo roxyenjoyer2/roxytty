@@ -104,7 +104,7 @@ frames/                   .ans frames (see above)
 ## License
 
 - **Code**: [MIT](LICENSE).
-- **Sprite frames** (`frames/`): fan art, edited from an anime screenshot.
+- **Sprite frames and aseprite file**: fan art, edited from an anime screenshots.
   Roxy Migurdia and *Mushoku Tensei* are © their respective owners
   (Rifujin na Magonote / Shirotaka / Studio Bind and associated rights
   holders). The frames are **not** covered by the MIT license, are
