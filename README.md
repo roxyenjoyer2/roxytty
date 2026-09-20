@@ -2,7 +2,9 @@
 
 An animated pixel-art Roxy Migurdia living in the corner of your terminal.
 She idles while you work, casts a spell while a command runs, and reacts
-when it succeeds or fails.
+when it succeeds or fails (the fail animation isn't added yet).
+
+You could make your own versions using the asperite file.
 
 Runs in a dedicated tmux pane, playing pre-rendered ANSI half-block frames
 (24-bit truecolor, two stacked source pixels per terminal cell).
@@ -24,6 +26,8 @@ Runs in a dedicated tmux pane, playing pre-rendered ANSI half-block frames
 
 Use this instead of plain `tmux` / `tmux attach`. Roxy gets her own pane on
 the right, sized automatically to the frame width.
+
+I suggest making a keyboard shortcut for "tmux kill-session -t main" or "tmux kill-session -t mysession".
 
 ### Command reactions (optional)
 
@@ -104,7 +108,7 @@ frames/                   .ans frames (see above)
   Roxy Migurdia and *Mushoku Tensei* are © their respective owners
   (Rifujin na Magonote / Shirotaka / Studio Bind and associated rights
   holders). The frames are **not** covered by the MIT license, are
-  non-commercial, and will be removed on request.
+  non-commercial, and any files containing *Mushoku Tensei* IP will be removed on request.
 
 ## Credits
 
